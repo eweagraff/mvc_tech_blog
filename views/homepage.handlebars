@@ -1,13 +1,9 @@
 <!-- Loop over each object in the projects array -->
 {{#each post as |posts| }}
-<div class="row mb-4 post">
-  <div class="col-md-5">
-    <h2>
-      <!-- Call helper function with triple brackets to render the emoji span as HTML -->
 
-    </h2>
+    <li>
+      {{> post-info post}}
+    </li>
 
 
-  </div>
-</div>
 {{/each}}
