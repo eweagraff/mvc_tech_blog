@@ -1,0 +1,28 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+body {
+  background-color:lightskyblue;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#new-post,
+#form {
+  text-align: center;
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "mvc_tech_blog",
+  "version": "1.0.0",
+  "description": "save and create posts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweagraff/mvc_tech_blog.git"
+  },
+  "author": "Emily Weagraff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweagraff/mvc_tech_blog/issues"
+  },
+  "homepage": "https://github.com/eweagraff/mvc_tech_blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  }
+}
