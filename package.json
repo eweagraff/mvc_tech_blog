@@ -2,14 +2,17 @@
   "name": "mvc_tech_blog",
   "version": "1.0.0",
   "description": "save and create posts",
+  "main": "server.js",
   "engines": {
     "node": "14.16.0",
     "npm": "6.14.11"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+    "scripts": {
+      "test": "jest",
+      "start": "node server.js",
+      "watch": "nodemon server.js",
+      "seed": "node seeds/seed.js"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eweagraff/mvc_tech_blog.git"
@@ -27,10 +30,8 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "express-session": "^1.17.2",
-    "jest": "^27.0.6",
     "mysql2": "^2.2.5",
     "node": "^16.4.0",
-    "nodemon": "^2.0.9",
     "seed": "^0.4.4",
     "sequelize": "^6.6.4",
     "serve": "^12.0.0"
