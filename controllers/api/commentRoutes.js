@@ -1,11 +1,10 @@
-const router = require('express').Router();
-const { Comment} = require('../../models');
-const withAuth = require('../../utils/auth');
+const router = require("express").Router();
+const { Comment } = require("../../models");
+const withAuth = require("../../utils/auth");
 
-// CREATE a card
-router.post('/', async (req, res) => {
+//Create Comment
+router.post("/", async (req, res) => {
   try {
-    // Since the model will create a unique UUID value by default, we just need to provide the `id` of the Reader that will own this card
     const commentData = await Comment.create({
       text: req.body.text,
     });

@@ -43,8 +43,6 @@ Handlebars
 Express.js
 </br>
 MySQL
-</br>
-Sequelize
 
 ## License
 

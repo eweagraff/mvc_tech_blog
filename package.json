@@ -27,8 +27,10 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
     "express-session": "^1.17.2",
+    "jest": "^27.0.6",
     "mysql2": "^2.2.5",
     "node": "^16.4.0",
+    "nodemon": "^2.0.9",
     "seed": "^0.4.4",
     "sequelize": "^6.6.4",
     "serve": "^12.0.0"
